@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 50vh;
+    font-size: 30px;
+    text-align: center;
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,1fr); */
+    grid-template-areas:
+        "sec1 sec2"
+        "sec3 sec4";
+    justify-content: stretch;
+    justify-items: center;
+    align-items: center;
+}
+
+.main div {
+    /* height: 150px;
+    width: 150px; */
+}
+
+.section-1 {
+    background-color: red;
+    justify-self: stretch;
+    align-self: stretch;
+}
+
+.section-2 {
+    background-color: green;
+}
+
+.section-3 {
+    background-color: blue;
+}
+
+.section-4 {
+    background-color: yellow;
+}
