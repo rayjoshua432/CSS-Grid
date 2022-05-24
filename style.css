@@ -13,9 +13,10 @@ html, body {
     grid-template-areas:
         "sec1 sec2"
         "sec3 sec4";
-    justify-content: stretch;
-    justify-items: center;
-    align-items: center;
+    /* justify-content: stretch; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    place-items: center;
 }
 
 .main div {
@@ -25,12 +26,12 @@ html, body {
 
 .section-1 {
     background-color: red;
-    justify-self: stretch;
-    align-self: stretch;
+    place-self: end;
 }
 
 .section-2 {
     background-color: green;
+    place-self: start;
 }
 
 .section-3 {
